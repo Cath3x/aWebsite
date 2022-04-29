@@ -1,104 +1,172 @@
 <!DOCTYPE html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap"
+  rel="stylesheet"
+/>
+
+<style>
+  div {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  #booksILike {
+    font-size: 25px;
+  }
+  h2 {
+    color: red;
+  }
+  .green-text {
+    color: green;
+    font-size: 30px;
+    font-family: "Libre Bodoni", serif;
+  }
+
+  p {
+    width: 500px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 2%;
+    background-color: silver;
+  }
+</style>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first website</title>
-</head>
-<body>
-    <h1>My Blog</h1>
+  </head>
+  <body>
+    <div>
+      <h1 style="color: blue">My Blog</h1>
 
-    <h2>Practicing with html</h2>
-    User Name:
-    <input type="text"/>
-    Password:
-    <input type="password"/> <br>
+      <h2 style="color: red">iFrame</h2>
+
+      <iframe
+        src="https://theuselessweb.com/"
+        frameborder="0"
+        width="1000"
+        height="800"
+        >Sorry</iframe
+      >
+      <h2>Practicing with html</h2>
+      User Name:
+      <input type="text" value="Enter Your Username" />
+      Password:
+      <input type="password" /> <br />
+
+      <p class="green-text">
+        <b>Lorem ipsum dolor sit amet,</b>
+        <i>consectetur adipiscing elit, sed do eiusmod tempor incididunt</i>
+        <u>
+          labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi
+          ipsum faucibus vitae.</u
+        >
+
+        Etiam tempor orci eu lobortis elementum nibh tellus molestie. Phasellus
+        egestas tellus rutrum tellus pellentesque eu. At auctor urna nunc id
+        cursus metus aliquam eleifend. <br /><br />
+        aenean euismod elementum nisi quis eleifend quam. At consectetur lorem
+        donec massa. Enim nunc faucibus
+
+        <a href="https://www.google.com" target="_black"
+          >a pellentesque sit amet porttitor.</a
+        >
+
+        <br />
+        <img src="https://via.placeholder.com/600x300" alt="" />
+        <br />
+        <img src="./img/pexels-photo-10567277.jpeg" alt="" />
+        <br />
+
+        Nunc mattis enim ut tellus elementum sagittis. Placerat orci nulla
+        pellentesque dignissim enim. Enim tortor at auctor urna nunc id. Amet
+        consectetur adipiscing elit duis tristique sollicitudin. Purus non enim
+        praesent elementum facilisis. Dui nunc mattis enim ut tellus. Velit
+        euismod in pellentesque massa placerat duis ultricies. Nec dui nunc
+        mattis enim ut tellus elementum sagittis vitae. Neque sodales ut etiam
+        sit amet nisl. Porttitor massa id neque aliquam vestibulum. In ornare
+        quam viverra orci sagittis eu volutpat. Elementum curabitur vitae nunc
+        sed velit dignissim sodales ut.
+      </p>
+    </div>
     
+    <h2 id="booksILike">Some lists</h2>
+    My top 3 favorite books
+    <ol id="booksILike">
+      <li>Harry Potter</li>
+      <li>Percy Jackson</li>
+      <li>39 Clues</li>
+    </ol>
+
+    Some places I'd like to vist
+    <ul>
+      <li>Japan</li>
+      <ul>
+        <li>Tokyo</li>
+        <li>Kyoto</li>
+        <li>Takayama</li>
+      </ul>
+      <li>Italy</li>
+      <li>France</li>
+    </ul>
 
     <p>
-        <b>Lorem ipsum dolor sit amet,</b> 
-        <i>consectetur adipiscing elit, sed do eiusmod tempor incididunt</i> 
-        <u> labore et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae.</u>
-        <hr>
-        Etiam tempor orci eu lobortis elementum nibh tellus molestie. Phasellus egestas tellus rutrum 
-        tellus pellentesque eu. At auctor urna nunc id cursus metus aliquam eleifend. <br><br> aenean 
-        euismod elementum nisi quis eleifend quam. At consectetur lorem donec massa. Enim nunc faucibus
-
-        <a href="https://www.google.com" target="_black">a pellentesque sit amet porttitor.</a>
-
-        <br>
-        <img src="https://via.placeholder.com/600x300" alt="">
-        <br>
-        <img src="./img/pexels-photo-10567277.jpeg" alt="">
-        <br>
-
-        Nunc mattis enim ut tellus elementum sagittis. Placerat orci 
-        nulla pellentesque dignissim enim. Enim tortor at auctor urna nunc id. Amet consectetur adipiscing 
-        elit duis tristique sollicitudin. Purus non enim praesent elementum facilisis. Dui nunc mattis 
-        enim ut tellus. Velit euismod in pellentesque massa placerat duis ultricies. Nec dui nunc mattis 
-        enim ut tellus elementum sagittis vitae. Neque sodales ut etiam sit amet nisl. Porttitor massa 
-        id neque aliquam vestibulum. In ornare quam viverra orci sagittis eu volutpat. Elementum curabitur 
-        vitae nunc sed velit dignissim sodales ut.
-
-        <h2>Some lists</h2>
-        My top 3 favorite books
-        <ol>
-            <li>Harry Potter</li>
-            <li>Percy Jackson</li>
-            <li>39 Clues</li>
-        </ol>
-
-        Some places I'd like to vist
-        <ul>
-            <li>Japan</li>
-                <ul>
-                    <li>Tokyo</li>
-                    <li>Kyoto</li>
-                    <li>Takayama</li>
-                </ul>
-            <li>Italy</li>
-            <li>France</li>
-        </ul>
-    </p>
-    
-    <p>
-        Porttitor massa id neque aliquam vestibulum. Vitae auctor eu augue ut lectus arcu bibendum. Amet 
-        venenatis urna cursus eget nunc scelerisque. In fermentum posuere urna nec tincidunt praesent semper 
-        feugiat. Nibh mauris cursus mattis molestie a. Eu turpis egestas pretium aenean pharetra. Malesuada 
-        pellentesque elit eget gravida cum. Orci eu lobortis elementum nibh tellus molestie nunc. Ullamcorper 
-        sit amet risus nullam eget felis eget. Lorem ipsum dolor sit amet. Eleifend quam adipiscing vitae proin 
-        sagittis nisl rhoncus mattis. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Sed
-         viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. Nullam non nisi est sit amet facilisis 
-         magna. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Senectus et netus 
-         et malesuada fames ac turpis egestas.
+      Porttitor massa id neque aliquam vestibulum. Vitae auctor eu augue ut
+      lectus arcu bibendum. Amet venenatis urna cursus eget nunc scelerisque. In
+      fermentum posuere urna nec tincidunt praesent semper feugiat. Nibh mauris
+      cursus mattis molestie a. Eu turpis egestas pretium aenean pharetra.
+      Malesuada pellentesque elit eget gravida cum. Orci eu lobortis elementum
+      nibh tellus molestie nunc. Ullamcorper sit amet risus nullam eget felis
+      eget. Lorem ipsum dolor sit amet. Eleifend quam adipiscing vitae proin
+      sagittis nisl rhoncus mattis. Fermentum posuere urna nec tincidunt
+      praesent semper feugiat nibh sed. Sed viverra tellus in hac habitasse
+      platea dictumst vestibulum rhoncus. Nullam non nisi est sit amet facilisis
+      magna. Pellentesque pulvinar pellentesque habitant morbi tristique
+      senectus et. Senectus et netus et malesuada fames ac turpis egestas.
     </p>
 
     <h2>Some Tables</h2>
     <table border="1" cellpadding="10" cellspacing="0">
-        <tr>
-            <th rowspan="2"></th>
-            <th colspan="8">Week Days</th>
-        </tr>
-        <tr>
-            <th>Sun</th>
-            <th>Mon</th>
-            <th>Tues</th>
-            <th>Weds</th>
-            <th>Thrus</th>
-            <th>Fri</th>
-            <th>Sat</th>
-        </tr>
-        <tr>
-            <th rowspan="1">Weeks</th>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-        </tr>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="8">Week Days</th>
+      </tr>
+      <tr>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Weds</th>
+        <th>Thrus</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+      <tr>
+        <th rowspan="1">Weeks</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
     </table>
-</body>
+    <form action="">
+      <h2>Comments</h2>
+      <input type="date" name="" id="" /> <br />
+      <input type="email" name="" id="" /> <br />
+      <textarea name="Comments" id="" cols="50" rows="20"> </textarea><br />
+      <input type="file" name="" id="" /> <br />
+      <input type="submit" id="" value="Submit" />
+    </form>
+  </body>
 </html>
